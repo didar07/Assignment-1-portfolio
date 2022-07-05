@@ -1,0 +1,19 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-image: url(images/donation1.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
