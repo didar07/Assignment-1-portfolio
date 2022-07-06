@@ -10,7 +10,7 @@ body {
     height: 800px;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 0px;
+
 
 }
 
@@ -32,10 +32,10 @@ p {
 }
 
 .amount-of-tk {
-
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+
 }
 
 .tk-box {
@@ -46,12 +46,7 @@ p {
 }
 
 .tk-200 {
-
-    border-color: tomato;
-}
-
-.other-amount {
-    text-decoration: underline;
+    background-color: rgb(203, 84, 63);
 }
 
 .amount-button {
@@ -64,5 +59,37 @@ p {
     background-color: crimson;
     padding: 20px 40px;
     border-radius: 15px;
+
+}
+
+.food-family {
+    text-align: justify;
+    padding: 10px 10px;
+    margin-right: 10px;
+    align-content: center;
+    background-color: bisque;
+}
+
+.shelter-family {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-content: center;
+    background-color: burlywood;
+}
+
+.child-education {
+    text-align: justify;
+    padding: 10px 10px;
+    margin-left: 10px;
+    align-content: center;
+    background-color: darkgoldenrod;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 60px;
 
 }
