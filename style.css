@@ -1,13 +1,17 @@
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.donate-today {
     text-align: center;
     font-size: 40px;
     color: white;
     background-image: url(images/donation1.jpg);
-    height: 700px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 0px;
+
 }
 
 .link-button {
@@ -16,4 +20,49 @@ body {
     background-color: crimson;
     padding: 20px 40px;
     border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.amount-of-tk {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.tk-box {
+    font-size: 32px;
+    padding: 40px 25px;
+    margin-right: 20px;
+    background-color: #f9f9f9;
+}
+
+.tk-200 {
+
+    border-color: tomato;
+}
+
+.other-amount {
+    text-decoration: underline;
+}
+
+.amount-button {
+    text-align: center;
+}
+
+.link-button-2 {
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    padding: 20px 40px;
+    border-radius: 15px;
+
 }
