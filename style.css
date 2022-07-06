@@ -53,6 +53,15 @@ p {
     text-align: center;
 }
 
+.other-amount {
+    text-align: center;
+    width: 100%;
+    border: none;
+
+    border-bottom: 2px solid rgb(166, 127, 56);
+
+}
+
 .link-button-2 {
     text-decoration: none;
     color: white;
@@ -92,4 +101,31 @@ section {
     justify-content: center;
     padding: 50px 60px;
 
+}
+
+footer {
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    background-color: black;
+    background-size: 100%;
+}
+
+.humble-footer {
+    color: white;
+    font-style: normal;
+    font-size: 10px;
+
+}
+
+pre {
+    text-align: center;
+    font-size: 30px;
+
+    border: 30px solid gray;
+    padding-left: 20px 5px 20px 10px;
+    margin-left: 380px;
+    margin-right: 440px;
+    background-color: lightcyan;
 }
